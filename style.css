@@ -22,6 +22,7 @@ main {
   position: relative;
   width: 255px;
   height: 255px;
+  margin: 0 auto;
 }
 
 .img-div {
@@ -38,7 +39,7 @@ img[src="images/pattern-bg.svg"] {
 }
 .arrow-div {
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 9999px;
   padding: 14px;
   position: absolute;
   width: 80px;
@@ -53,16 +54,16 @@ img[src="images/pattern-bg.svg"] {
   cursor: pointer;
 }
 .quote-div {
-    position: relative;
-    margin-top: 84px;
+  position: relative;
+  margin-top: 84px;
 }
 
 .quote-div img[src="images/pattern-quotes.svg"] {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
 }
 
 blockquote {
@@ -111,9 +112,84 @@ img[src="images/pattern-curve.svg"] {
 
 /* Desktop styling */
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   main {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    padding: 7rem 4rem 4rem 166px;
+  }
+  .developer-image-div {
+    position: relative;
+    width: 538px;
+    height: 538px;
+  }
+  blockquote {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 46px;
+    text-align: left;
+  }
+  .quote-div img[src="images/pattern-quotes.svg"] {
+    position: absolute;
+    top: -6px;
+    left: 156px;
+    transform: translate(-50%, -50%);
+    width: 120px;
+  }
+  .user-div {
+    display: flex;
+    gap: 8px;
+    position: relative;
+    top: -12px;
+  }
+  .img-div {
+    padding: 0;
+    position: relative;
+    margin-left: 24px;
+  }
+  .dev-image {
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 102px;
+  }
+  .arrow-div {
+    padding: 21px 60px;
+    bottom: -4px;
+    left: 3%;
+    transform: translate(-50%, 50%);
+    gap: 40px;
+    box-shadow: 0 5px 20px 3px #d8d7e5;
+  }
+  .arrow-div img {
+    width: 16px;
+    height: 19px;
+  }
+  img[src="images/pattern-bg.svg"] {
+    width: auto;
+    position: absolute;
+    top: -31px;
+    z-index: -1;
+    left: -20px;
+  }
+  img[src="images/pattern-bg.svg"] {
+    width: 673px;
+    position: absolute;
+    top: -60px;
+    left: -146px;
+    height: 650px;
+  }
+  .user-div__name,
+  .user-div__position {
+    font-size: 20px;
+  }
+  img[src="images/pattern-curve.svg"] {
+    width: 610px;
   }
 }
