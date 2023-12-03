@@ -40,10 +40,9 @@ img[src="images/pattern-bg.svg"] {
   padding: 14px;
   position: absolute;
   width: 80px;
-  position: absolute;
-  top: 91%;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 50%);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -69,6 +68,7 @@ blockquote {
   width: 255px;
   height: 255px;
   border-radius: 6px;
+  display: block;
 }
 
 img[src="images/pattern-curve.svg"] {
@@ -79,8 +79,8 @@ img[src="images/pattern-curve.svg"] {
 }
 
 .arrow-div img {
-  width: 10px;
-  height: 12px;
+    width: 12px;
+    height: 14px;
 }
 .user-div {
   text-align: center;
