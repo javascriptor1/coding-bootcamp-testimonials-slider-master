@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  padding: 50px 32px;
+  padding: 50px 30px;
 }
 .developer-image-div {
   position: relative;
@@ -54,24 +54,24 @@ img[src="images/pattern-bg.svg"] {
 }
 .quote-div {
     position: relative;
-    border: solid;
+    margin-top: 84px;
 }
 
 .quote-div img[src="images/pattern-quotes.svg"] {
     position: absolute;
-    top: 30px;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     width: 60px;
 }
 
 blockquote {
   font-size: 18px;
   text-align: center;
-  margin-top: 84px;
   line-height: 1.3;
   color: var(--Dark-Blue);
   font-weight: 300;
+  font-weight: 500;
 }
 
 .hide {
@@ -98,7 +98,7 @@ img[src="images/pattern-curve.svg"] {
 }
 .user-div {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 22px;
 }
 
 .user-div__name {
