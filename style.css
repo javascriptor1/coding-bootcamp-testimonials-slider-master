@@ -12,7 +12,6 @@
 
 body {
   font-family: "Inter", sans-serif;
-  overflow: hidden;
 }
 
 main {
@@ -74,8 +73,6 @@ blockquote {
   font-weight: 300;
   font-weight: 500;
 }
-
-
 
 .dev-image {
   border-radius: 6px;
@@ -188,11 +185,17 @@ img[src="images/pattern-curve.svg"] {
     font-size: 20px;
   }
   img[src="images/pattern-curve.svg"] {
+    position: sticky;
     width: 42%;
+    bottom: 0;
   }
 }
 
-
 .hide {
-    display: none;
-  }
+  display: none;
+}
+
+
+.animate {
+    
+}
