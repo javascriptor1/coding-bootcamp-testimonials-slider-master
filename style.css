@@ -75,9 +75,7 @@ blockquote {
   font-weight: 500;
 }
 
-.hide {
-  display: none;
-}
+
 
 .dev-image {
   border-radius: 6px;
@@ -90,7 +88,7 @@ img[src="images/pattern-curve.svg"] {
   position: absolute;
   bottom: 0px;
   left: 0;
-  width: 286px;
+  width: 72%;
 }
 
 .arrow-div img {
@@ -190,6 +188,11 @@ img[src="images/pattern-curve.svg"] {
     font-size: 20px;
   }
   img[src="images/pattern-curve.svg"] {
-    width: 610px;
+    width: 42%;
   }
 }
+
+
+.hide {
+    display: none;
+  }
