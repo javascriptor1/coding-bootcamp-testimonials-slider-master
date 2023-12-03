@@ -71,7 +71,6 @@ blockquote {
   line-height: 1.3;
   color: var(--Dark-Blue);
   font-weight: 300;
-  font-weight: 500;
 }
 
 .dev-image {
@@ -194,4 +193,3 @@ img[src="images/pattern-curve.svg"] {
 .hide {
   display: none;
 }
-
